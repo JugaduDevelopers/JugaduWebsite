@@ -29,26 +29,18 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-onyx px-10 lg:px-20 flex justify-between items-center py-7">
+    <header className="bg-black px-10 lg:px-20 flex justify-between items-center py-7">
       <h1 className="text-whiteSmoke text-xxl z-10">
         <a href="#"> Logo </a>
       </h1>
-      <button onClick={toggleOpen} className="lg:hidden z-10">
+      <button className="lg:hidden z-10">
         {!isOpen ? (
           <MenuIcon fill={"white"} height={30} width={30} />
         ) : (
           <CloseIcon fill={"white"} height={30} width={30} />
         )}
       </button>
-      <nav
-      //     className={`bg-onyx fixed lg:relative inset-0 lg:flex items-center
-      //    ${
-      //      isOpen
-      //        ? "flex flex-col duration-500 ease-in-out translate-x-0 min-h-screen justify-center"
-      //        : "translate-x-full"
-      //    }
-      //    `}
-      >
+      {/* <nav>
         <ul className="flex flex-col lg:flex-row gap-10 items-center">
           {navItems.map((x) => {
             return (
@@ -61,7 +53,7 @@ const Navbar = () => {
             Contact Us
           </button>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 };
