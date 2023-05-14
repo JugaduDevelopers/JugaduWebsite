@@ -81,7 +81,7 @@ const approaches = [
 export default function Home() {
   return (
     <>
-      <section className="bg-black ">
+      <section className="bg-black lg:px-28 ">
         <div className="container mx-auto flex flex-col gap-14  lg:flex  lg:flex-row  items-center justify-center min-h-fit lg:min-h-screen   p-5">
           <div className="text-white lg:w-[50%] h-fit ">
             <h1 className="text-4xl sm:text-6xl mb-5">
@@ -91,7 +91,7 @@ export default function Home() {
               Idealogic materializes ideas into software. Find out what
               solutions we can create for your business
             </p>
-            <button className="bg-[#fdda4a] py-4 min-w-[280px] text-black font-semibold rounded-md">
+            <button className="bg-[#fdda4a] py-4 min-w-[250px] sm:min-w-[300px] text-black font-semibold rounded-md">
               Get in touch
             </button>
           </div>
@@ -117,13 +117,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="  mt-10 ">
+      <section className="  mt-10 lg:px-28 ">
         <div className="container flex flex-col  mx-auto  p-5 ">
-          <h1 className="text-3xl lg:text-4xl text-left lg:pl-28 ">
+          <h1 className="text-3xl lg:text-4xl text-left  ">
             Idealogic focuses on work with startups
           </h1>
           <div className="flex flex-col md:flex md:flex-row gap-5 mt-5 lg:mt-14">
-            <div className="bg-[#ffda44]  flex-1   p-5 md:p-10 rounded-lg flex flex-col items-start justify-center lg:ml-28">
+            <div className="bg-[#ffda44]  flex-1   p-5 md:p-10 rounded-lg flex flex-col items-start justify-center ">
               <Computer />
               <h2 className="text-2xl mt-5">Minimum viable product</h2>
               <ul className="list-disc pl-5 mt-5">
@@ -135,7 +135,7 @@ export default function Home() {
                 <li className="mt-2 ">UI/UX of the product</li>
               </ul>
             </div>
-            <div className="bg-black flex-1   p-5 md:p-10  rounded-lg flex flex-col items-start justify-center lg:mr-28">
+            <div className="bg-black flex-1   p-5 md:p-10  rounded-lg flex flex-col items-start justify-center ">
               <Rocket />
               <h2 className="text-2xl mt-5 text-white">
                 Launch and post-launch support
@@ -154,12 +154,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className=" min-h-screen mt-10 lg:mt-14">
+      <section className="  mt-10 lg:mt-14 lg:px-28">
         <div className="container flex flex-col  mx-auto  p-5 ">
-          <h1 className="text-3xl lg:text-4xl text-left lg:pl-28">
+          <h1 className="text-3xl lg:text-4xl text-left ">
             We have strong expertise in these areas:
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-5 mt-5 lg:mt-14 lg:px-28">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-5 mt-5 lg:mt-14 ">
             {expertiseList.map((x) => {
               return (
                 <div
@@ -172,65 +172,15 @@ export default function Home() {
                 </div>
               )
             })}
-            {/* <div className="bg-white p-5 rounded-lg  drop-shadow-lg hover:drop-shadow-2xl hover:transition-all hover:duration-1000 hover:ease-out">
-              <Laptop className="hover:bg-[#ffda44]  hover:rounded-full overflow-visible" />
-              <h2 className="text-3xl mt-5">DeFi platforms</h2>
-              <p className="text-lg mt-3">
-                Our team of developers creates decentralized financial
-                platforms. We don’t limit ourselves to crypto solutions only, we
-                also apply smart contracts and open software solutions in other
-                industries.
-              </p>
-            </div>
-            <div className="bg-white p-5 rounded-lg drop-shadow-lg hover:drop-shadow-2xl hover:transition-all hover:duration-1000 hover:ease-out ">
-              <Laptop className="hover:bg-[#ffda44]  hover:rounded-full overflow-visible" />
-              <h2 className="text-3xl mt-5">DeFi platforms</h2>
-              <p className="text-lg mt-3">
-                Our team of developers creates decentralized financial
-                platforms. We don’t limit ourselves to crypto solutions only, we
-                also apply smart contracts and open software solutions in other
-                industries.
-              </p>
-            </div>
-            <div className="bg-white p-5 rounded-lg drop-shadow-lg hover:drop-shadow-2xl hover:transition-all hover:duration-1000 hover:ease-out ">
-              <Laptop className="hover:bg-[#ffda44]  hover:rounded-full overflow-visible" />
-              <h2 className="text-3xl mt-5">DeFi platforms</h2>
-              <p className="text-lg mt-3">
-                Our team of developers creates decentralized financial
-                platforms. We don’t limit ourselves to crypto solutions only, we
-                also apply smart contracts and open software solutions in other
-                industries.
-              </p>
-            </div>
-            <div className="bg-white p-5 rounded-lg drop-shadow-lg hover:drop-shadow-2xl hover:transition-all hover:duration-1000 hover:ease-out">
-              <Laptop className="hover:bg-[#ffda44]  hover:rounded-full overflow-visible" />
-              <h2 className="text-3xl mt-5">DeFi platforms</h2>
-              <p className="text-lg mt-3">
-                Our team of developers creates decentralized financial
-                platforms. We don’t limit ourselves to crypto solutions only, we
-                also apply smart contracts and open software solutions in other
-                industries.
-              </p>
-            </div>
-            <div className="bg-white p-5 rounded-lg drop-shadow-lg hover:drop-shadow-2xl hover:transition-all hover:duration-1000 hover:ease-out ">
-              <Laptop className="hover:bg-[#ffda44]  hover:rounded-full overflow-visible" />
-              <h2 className="text-3xl mt-5">DeFi platforms</h2>
-              <p className="text-lg mt-3">
-                Our team of developers creates decentralized financial
-                platforms. We don’t limit ourselves to crypto solutions only, we
-                also apply smart contracts and open software solutions in other
-                industries.
-              </p>
-            </div> */}
           </div>
         </div>
       </section>
-      <section className="bg-[#121519] text-white">
+      <section className="bg-[#121519] text-white mt-10 lg:mt-14 lg:px-28">
         <div className="container mx-auto p-5">
-          <h1 className="text-3xl lg:pl-28">
+          <h1 className="text-3xl mt-5">
             We offer a straightforward and transparent approach to any project
           </h1>
-          <div className="mt-7 lg:pl-28 lg:max-w-4xl">
+          <div className="mt-7  lg:max-w-4xl">
             {approaches.map((x) => {
               return (
                 <div className="md:flex md:gap-4 mt-10 lg:mt-16" key={x.id}>
