@@ -16,12 +16,23 @@
     @apply font-bold font-black;
   }
 
-  h2 {
-    @apply text-7xl sm:text-8xl lg:text-9xl;
+  h1 {
+    @apply text-6xl;
   }
-
+  h2 {
+    @apply text-5xl;
+  }
+  h3 {
+    @apply text-4xl;
+  }
+  h4 {
+    @apply text-3xl;
+  }
+  h5 {
+    @apply text-2xl;
+  }
   h6 {
-    @apply text-xs;
+    @apply text-xl;
   }
 
   p {
@@ -35,12 +46,22 @@
 
   a {
   }
-
-
 }
 
 @layer components {
   .btn {
     @apply text-dimGray py-4 px-6 rounded-md border-2 bg-gainsboro border-gainsboro hover:bg-slateBlue hover:border-slateBlue hover:text-white hover:duration-[0.3s] hover:ease-in-out;
   }
+}
+
+.stickyHeader {
+  @apply sticky top-0 mb-10;
+  z-index: 60;
+}
+
+.footer-common li {
+  @apply hover:text-black cursor-pointer hover:underline;
+}
+.footer-common ul {
+  @apply flex flex-col gap-2;
 }
