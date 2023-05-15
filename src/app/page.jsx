@@ -5,7 +5,6 @@ import LinkedIn from '../../public/icons/linkedin.svg'
 import Computer from '../../public/icons/computer.svg'
 import Rocket from '../../public/icons/rocket.svg'
 import Laptop from '../../public/icons/laptop.svg'
-const inter = Inter({ subsets: ['latin'] })
 
 const expertiseList = [
   {
