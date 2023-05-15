@@ -81,8 +81,8 @@ export default function Home() {
   return (
     <>
       <section className="bg-black  ">
-        <div className="container mx-auto flex flex-col gap-14  lg:flex  lg:flex-row  items-center justify-center min-h-fit lg:min-h-screen   p-5">
-          <div className="text-white lg:w-[50%] h-fit ">
+        <div className="container mx-auto px-5 py-14 sm:py-36 lg:py-60 flex items-center justify-center ">
+          <div className="text-white ">
             <h1 className="text-4xl sm:text-6xl mb-5">
               Custom software development company
             </h1>
@@ -92,31 +92,10 @@ export default function Home() {
             </p>
             <button className="bg-[#fdda4a] py-4 min-w-[250px] sm:min-w-[300px] text-black font-semibold rounded-md">
               Get in touch
-            </button>
-          </div>
-          <div className=" flex self-center  lg:flex-col gap-4  lg:self-start md:pt-3 lg:pt-14">
-            <a
-              href=""
-              className="bg-[hsla(0,0%,100%,.1)] w-12 aspect-square p-3 rounded-full"
-            >
-              <Gmail />
-            </a>
-            <a
-              href=""
-              className="bg-[hsla(0,0%,100%,.1)] w-12 aspect-square p-3 rounded-full"
-            >
-              <LinkedIn />
-            </a>
-            <a
-              href=""
-              className="bg-[hsla(0,0%,100%,.1)] w-12 aspect-square p-3 rounded-full"
-            >
-              <Facebook />
-            </a>
-          </div>
+            </button></div>
         </div>
       </section>
-      <section className="  mt-10  ">
+      <section className="  mt-10 ">
         <div className="container flex flex-col  mx-auto  p-5 ">
           <h1 className="text-3xl lg:text-4xl text-left  ">
             Idealogic focuses on work with startups
@@ -153,7 +132,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="  mt-10 lg:mt-14 ">
+      <section className="  mt-10 lg:mt-14  ">
         <div className="container flex flex-col  mx-auto  p-5 ">
           <h1 className="text-3xl lg:text-4xl text-left ">
             We have strong expertise in these areas:
@@ -174,7 +153,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#121519] text-white mt-10 lg:mt-14 ">
+      <section className="bg-[#121519] text-white mt-10 lg:mt-14  ">
         <div className="container mx-auto p-5">
           <h1 className="text-3xl mt-5">
             We offer a straightforward and transparent approach to any project

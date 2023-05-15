@@ -17,7 +17,7 @@ const RootLayout = ({ children }) => {
         <title>Jugadu Developers</title>
       </head>
       <body>
-        <header className="sticky top-0 mb-10 z-50">
+        <header className="sticky top-0 z-50 ">
           <Header />
         </header>
         {children}

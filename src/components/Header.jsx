@@ -9,7 +9,7 @@ import TestNav from "./SmNav";
 function Header() {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
-    const onScroll = () => setScroll(scrollY > 20);
+    const onScroll = () => setScroll(scrollY > 100);
     document.addEventListener("scroll", onScroll);
     return () => document.removeEventListener("scroll", onScroll);
   }, [scroll]);
@@ -17,8 +17,8 @@ function Header() {
   return (
     <div
       className={`${
-        scroll ? "bg-black" : "bg-transparent"
-      } transition-all ease-in-out duration-200 bg-opacity-60 text-white font-semibold`}
+        scroll ? "bg-opacity-90" : ""
+      } transition-all ease-in-out bg-black duration-200  text-white font-semibold px-5`}
     >
       <div className={"container mx-auto "}>
         <div className="flex justify-between items-center py-6">

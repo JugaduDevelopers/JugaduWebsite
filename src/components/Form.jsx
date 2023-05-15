@@ -49,13 +49,13 @@ function Form({ api }) {
       <input
         type="text"
         name="name"
-        className="appearance-none bg-transparent border-none w-full text-[#00000033] border-b border-[#00000033] mr-3 py-1 px-2 leading-tight focus:outline-none"
+        className="appearance-none bg-transparent border-none w-full text-[#121519] placeholder:text-[#121519] border-b border-[#121519] mr-3 py-1 px-2 leading-tight focus:outline-none"
         ref={nameRef}
         placeholder="Your name"
       />
       <label htmlFor="email"></label>
       <input
-        className="appearance-none bg-transparent border-none w-full text-[#00000033] border-b border-[#00000033] mr-3 py-1 px-2 leading-tight focus:outline-none"
+        className="appearance-none bg-transparent border-none w-full text-[#121519] placeholder:text-[#121519] border-b border-[#121519] mr-3 py-1 px-2 leading-tight focus:outline-none"
         type="email"
         name="email"
         ref={emailRef}
@@ -63,7 +63,7 @@ function Form({ api }) {
       />
       <label htmlFor="phone"></label>
       <input
-        className="appearance-none bg-transparent border-none w-full text-[#00000033] border-b border-[#00000033] mr-3 py-1 px-2 leading-tight focus:outline-none"
+        className="appearance-none bg-transparent border-none w-full text-[#121519] placeholder:text-[#121519] border-b border-[#121519] mr-3 py-1 px-2 leading-tight focus:outline-none"
         type="tel"
         name="phone"
         ref={phoneRef}
@@ -74,7 +74,7 @@ function Form({ api }) {
         placeholder="Have any message for us?"
         rows="2"
         name="message"
-        className="appearance-none bg-transparent border-none w-full border-b border-[#00000033] text-[#00000033] mr-3 py-1 px-2 leading-tight focus:outline-none"
+        className="appearance-none bg-transparent border-none w-full border-b border-[#121519] placeholder:text-[#121519] text-[#121519] mr-3 py-1 px-2 leading-tight focus:outline-none"
         ref={messageRef}
       ></textarea>
       <div className=" mt-6">
