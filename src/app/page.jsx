@@ -81,7 +81,7 @@ const approaches = [
 export default function Home() {
   return (
     <>
-      <section className="bg-black lg:px-28 ">
+      <section className="bg-black  ">
         <div className="container mx-auto flex flex-col gap-14  lg:flex  lg:flex-row  items-center justify-center min-h-fit lg:min-h-screen   p-5">
           <div className="text-white lg:w-[50%] h-fit ">
             <h1 className="text-4xl sm:text-6xl mb-5">
@@ -117,7 +117,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="  mt-10 lg:px-28 ">
+      <section className="  mt-10  ">
         <div className="container flex flex-col  mx-auto  p-5 ">
           <h1 className="text-3xl lg:text-4xl text-left  ">
             Idealogic focuses on work with startups
@@ -154,7 +154,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="  mt-10 lg:mt-14 lg:px-28">
+      <section className="  mt-10 lg:mt-14 ">
         <div className="container flex flex-col  mx-auto  p-5 ">
           <h1 className="text-3xl lg:text-4xl text-left ">
             We have strong expertise in these areas:
@@ -175,7 +175,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#121519] text-white mt-10 lg:mt-14 lg:px-28">
+      <section className="bg-[#121519] text-white mt-10 lg:mt-14 ">
         <div className="container mx-auto p-5">
           <h1 className="text-3xl mt-5">
             We offer a straightforward and transparent approach to any project
