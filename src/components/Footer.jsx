@@ -4,7 +4,7 @@ import Form from "./Form";
 const Footer = () => {
   return (
     <>
-      <div className="flex w-full justify-around max-md:flex-col container mx-auto my-10 px-5">
+      <div className="flex w-full justify-around max-md:flex-col container mx-auto my-10 px-20">
         <div className="bg-white w-full">
           <div className=" flex flex-col gap-2 justify-center py-40">
             <h4 className="text-5xl">Share your idea with us.</h4>
@@ -42,7 +42,6 @@ const Footer = () => {
             <li>Design</li>
             <li>Web Development</li>
             <li>Mobile Development</li>
-            <li>Quality assurance</li>
           </ul>
           <ul>
             <h6 className="font-semibold text-[#121519]">Talk to us</h6>

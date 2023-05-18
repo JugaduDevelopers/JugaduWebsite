@@ -1,17 +1,19 @@
+// import second from '../src/app/OurWorks'
+
 export const navLinks = [
   {
     id: 1,
     item: "Our Works",
-    href: "#",
+    href: "/ourWorks",
   },
   {
     id: 2,
     item: "Our Company",
-    href: "#",
+    href: "/ourCompany",
   },
   {
     id: 3,
     item: "Services",
-    href: "#",
+    href: "/services",
   },
 ];
