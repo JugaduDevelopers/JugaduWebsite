@@ -4,12 +4,12 @@ export const navLinks = [
   {
     id: 1,
     item: "Our Works",
-    href: "/ourWorks",
+    href: "/our-work",
   },
   {
     id: 2,
     item: "Our Company",
-    href: "/ourCompany",
+    href: "/our-approach",
   },
   {
     id: 3,

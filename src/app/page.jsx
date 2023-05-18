@@ -147,7 +147,7 @@ export default function Home() {
           <h1 className="text-3xl mt-5">
             We offer a straightforward and transparent approach to any project
           </h1>
-          <div className="grid lg:grid-cols-2 gap-10">
+          <div className="mt-7  lg:max-w-4xl">
             {approaches.map((x) => {
               return (
                 <div className="md:flex md:gap-4 mt-10 lg:mt-16" key={x.id}>
