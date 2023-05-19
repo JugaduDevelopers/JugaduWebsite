@@ -5,7 +5,6 @@ import LinkedIn from "../../public/icons/linkedin.svg";
 import Computer from "../../public/icons/computer.svg";
 import Rocket from "../../public/icons/rocket.svg";
 import Laptop from "../../public/icons/laptop.svg";
-
 const expertiseList = [
   {
     heading: "DeFi platforms",
@@ -78,9 +77,11 @@ export default function Home() {
               Idealogic materializes ideas into software. Find out what
               solutions we can create for your business
             </p>
-            <button className="bg-[#fdda4a] py-4 min-w-[250px] sm:min-w-[300px] text-black font-semibold rounded-md">
-              Get in touch
-            </button>
+            <a href="#contact">
+              <button className="bg-[#fdda4a] py-4 min-w-[250px] sm:min-w-[300px] text-black font-semibold rounded-md">
+                Get in touch
+              </button>
+            </a>
           </div>
         </div>
       </section>

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply font-sans;
   }
@@ -60,7 +64,7 @@
 }
 
 .footer-common li {
-  @apply hover:text-black cursor-pointer hover:underline;
+  @apply hover:text-black cursor-pointer hover:underline hover:fill-yellow;
 }
 .footer-common ul {
   @apply flex flex-col gap-2;

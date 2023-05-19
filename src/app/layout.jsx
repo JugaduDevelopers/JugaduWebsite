@@ -14,7 +14,6 @@ const RootLayout = ({ children }) => {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <title>Jugadu Developers</title>
       </head>
       <body>
         <header className="sticky top-0 z-50 ">
