@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["Jugadu"]
+  "cSpell.words": [
+    "Jugadu"
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
