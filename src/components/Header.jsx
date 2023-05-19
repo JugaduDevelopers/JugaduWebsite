@@ -17,7 +17,7 @@ function Header() {
         scroll ? "bg-opacity-90" : "bg-opacity-100"
       } transition-all ease-in-out bg-black duration-200  text-white font-semibold px-5`}
     >
-      <div className={"container mx-auto px-20"}>
+      <div className={"container mx-auto"}>
         <div className="flex justify-between items-center py-6">
           <h2>Logo</h2>
           <LgNav />

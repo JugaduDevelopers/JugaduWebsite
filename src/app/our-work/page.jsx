@@ -5,7 +5,7 @@ import SeedBox from "../../../public/SeedBox.webp";
 const OurWork = () => {
   return (
     <section className="bg-[#121519] text-[#F6F6F6]">
-      <div className="container mx-auto flex flex-col items-start md:py-28 py-16">
+      <div className="container mx-auto flex flex-col items-start md:py-28 py-16 md:px-0 px-5">
         <div className="md:w-3/5">
           <h1 className="text-5xl pb-3">Our works</h1>
           <p className="text-lg">
@@ -18,7 +18,7 @@ const OurWork = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto md:pt-28 pt-16 flex flex-wrap">
+      <div className="container mx-auto md:pt-28 pt-16 flex flex-wrap md:px-0 px-5">
         <div className="flex flex-col items-start flex-1 pr-16">
           <h1 className="text-5xl mb-7"> Glue</h1>
           <p className="text-lg mb-7">
@@ -34,7 +34,7 @@ const OurWork = () => {
           <Image src={SeedBox} width={700} alt="img" />
         </div>
       </div>
-      <div className="container mx-auto flex gap-40">
+      <div className="container mx-auto flex gap-40 md:px-0 px-5">
         <button className="font-medium">
           <span>Prev Case</span>
         </button>
@@ -42,7 +42,7 @@ const OurWork = () => {
           <span>Next Case</span>
         </button>
       </div>
-      <div className="container mx-auto md:pt-28 pt-16 flex justify-between flex-wrap text-2xl">
+      <div className="container mx-auto md:pt-28 pt-16 flex justify-between flex-wrap text-2xl md:px-0 px-5">
         <div>
           <Image src={SeedBox} width={600} alt="img" />
           <h3 className=" md:py-5 py-3">

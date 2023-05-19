@@ -4,7 +4,10 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export const metadata = {
-  title: "Jugadu Developers",
+  title: {
+    default: "Jugadu Developers",
+    template: "%s | Jugadu Developers",
+  },
   description: "",
 };
 

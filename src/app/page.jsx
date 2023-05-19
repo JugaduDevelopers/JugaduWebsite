@@ -68,7 +68,7 @@ export default function Home() {
   return (
     <>
       <section className="bg-black  ">
-        <div className="container mx-auto px-20 py-14 sm:py-36 lg:py-60 flex items-center justify-center ">
+        <div className="container mx-auto  py-14 sm:py-36 lg:py-60 flex items-center justify-center ">
           <div className="text-white ">
             <h1 className="text-4xl sm:text-6xl mb-5">
               Custom software development company
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </section>
       <section className="  mt-10 ">
-        <div className="container px-20 flex flex-col  mx-auto  p-5 ">
+        <div className="container  flex flex-col  mx-auto  p-5 ">
           <h1 className="text-3xl lg:text-4xl text-left  ">
             Idealogic focuses on work with startups
           </h1>
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
       </section>
       <section className="  mt-10 lg:mt-14  ">
-        <div className="container px-20 flex flex-col  mx-auto  p-5 ">
+        <div className="container flex flex-col  mx-auto  p-5 ">
           <h1 className="text-3xl lg:text-4xl text-left ">
             We have strong expertise in these areas:
           </h1>
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#121519] text-white mt-10 lg:mt-14  ">
-        <div className="container px-20 mx-auto p-5">
+        <div className="container mx-auto p-5">
           <h1 className="text-3xl mt-5">
             We offer a straightforward and transparent approach to any project
           </h1>
