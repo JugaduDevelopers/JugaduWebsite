@@ -2,12 +2,12 @@ import React from "react";
 
 const Establishment = () => {
   return (
-    <div className="bg-black py-20 px-10 md:px-20 flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl md:text-9xl text-whiteSmoke">
+    <div className="bg-black container mx-auto py-10 flex flex-col justify-center items-start gap-10">
+      <h1 className="text-5xl text-white">
         Why Did We Establish a Separate <br /> Design Studio?
       </h1>
-      <div className="h-2 bg-queenBlue w-28 rounded" />
-      <div className="text-xl md:text-3xl text-whiteSmoke">
+      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="text-lg text-white">
         At Idealogic, we focus on custom development through our separate
         development studio, Idealogic.dev. However, we also understand that some
         clients may have in-house development expertise and prefer to work with

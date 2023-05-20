@@ -4,12 +4,12 @@ import Tab from "../../public/icons/tab.svg";
 
 const CreateApp = () => {
   return (
-    <div className="bg-whiteSmoke py-20 px-10 md:px-20 flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl md:text-9xl text-black">
+    <div className="bg-white py-20 container mx-auto flex flex-col justify-center items-start gap-10">
+      <h1 className="text-5xl text-black">
         Create the apps for your business with us
       </h1>
-      <div className="h-2 bg-queenBlue w-28 rounded" />
-      <div className="text-lg md:text-xl text-black">
+      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="text-lg m text-black">
         We develop mobile applications for various business needs. Idealogic
         team can either start with a fresh idea of yours and develop the app
         from scratch, or build the application that will reach more clients with

@@ -10,15 +10,20 @@ import Koa from "../../public/icons/koa.svg";
 
 const Technologies = () => {
   return (
-    <div className="bg-whiteSmoke py-20 px-10 md:px-20 flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl md:text-9xl text-black">Technologies</h1>
-      <div className="text-2xl md:text-4xl text-black">
-        Let your ideas be implemented into reality with our core technologies
+    <div className="bg-white py-20 container mx-auto flex flex-col justify-center items-start gap-10">
+      <h1 className="text-5xl text-black">Technologies</h1>
+      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="text-xl text-black flex flex-col gap-5 mb-10">
+        <p>
+          {" "}
+          Let your ideas be implemented into reality with our core technologies
+        </p>
+        <p>
+          We use the most innovative, up-to-date tools, ensuring the highest
+          level of development standards
+        </p>
       </div>
-      <div className="text-black text-lg">
-        We use the most innovative, up-to-date tools, ensuring the highest level
-        of development standards
-      </div>
+
       <div className="flex flex-col md:flex-row flex-wrap gap-36 ">
         <div className="flex flex-col items-center gap-5">
           <ReactJS />

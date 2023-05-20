@@ -2,12 +2,12 @@ import React from "react";
 
 const ProductDesign = () => {
   return (
-    <div className="bg-whiteSmoke px-10 md:px-20 flex flex-col h-screen justify-center items-start gap-10">
-      <h1 className="text-5xl md:text-9xl text-black">
+    <div className="bg-whiteSmoke container mx-auto flex flex-col py-10 justify-center items-start gap-10">
+      <h1 className="text-black text-5xl">
         Product Design Services for <br /> Startups
       </h1>
-      <div className="h-2 bg-queenBlue w-28 rounded" />
-      <div className="text-xl md:text-3xl text-black">
+      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="text-lg text-black">
         Idealogic offers design services for fintech, DeFi <br /> platforms, and
         mobile applications.
       </div>

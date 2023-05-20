@@ -6,7 +6,7 @@ const Banner = () => {
       <h1 className="text-whiteSmoke text-6xl md:text-9xl">
         Custom Software <br /> Development Company
       </h1>
-      <h3 className="text-whiteSmoke text-3xl md:text-6xl">
+      <h3 className="text-whiteSmoke text-lg md:text-6xl">
         Idealogic materializes ideas into software. <br /> Find out what
         solutions we can create for your business
       </h3>

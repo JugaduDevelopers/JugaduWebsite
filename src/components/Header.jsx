@@ -19,7 +19,9 @@ function Header() {
     >
       <div className={"container mx-auto"}>
         <div className="flex justify-between items-center py-6">
-          <h2>Logo</h2>
+          <a href="#" className="text-2xl">
+            Jugadu Developers
+          </a>
           <LgNav />
           <TestNav />
           <a href="#contact" className=" max-md:hidden">

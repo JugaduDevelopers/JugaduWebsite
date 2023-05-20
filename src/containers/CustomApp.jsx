@@ -8,12 +8,12 @@ import Six from "../../public/icons/six.svg";
 
 const CustomApp = () => {
   return (
-    <div className="bg-whiteSmoke py-20 px-10 md:px-20 flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl md:text-9xl text-black">
+    <div className="bg-black py-10 container mx-auto  flex flex-col justify-center items-start gap-10">
+      <h1 className="text-5xl text-white">
         How do we work on the custom app development?
       </h1>
-      <div className="h-2 bg-queenBlue w-28 rounded" />
-      <div className="text-xl md:text-3xl text-black mb-10">
+      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="text-lg text-white mb-10">
         We offer a simple and clear workflow for app development from the idea
         you have to a fully functional product:
       </div>
@@ -22,7 +22,7 @@ const CustomApp = () => {
           <div className="flex flex-row gap-7 items-center">
             <One />
           </div>
-          <div className="text-black text-lg">
+          <div className="text-white text-lg">
             Send the Application form and describe your idea and objectives;
           </div>
         </div>
@@ -30,7 +30,7 @@ const CustomApp = () => {
           <div className="flex flex-row gap-7 items-center">
             <Two />
           </div>
-          <div className="text-black text-lg">
+          <div className="text-white text-lg">
             Schedule the first call with our Sales and Business Analytics;
           </div>
         </div>
@@ -38,7 +38,7 @@ const CustomApp = () => {
           <div className="flex flex-row gap-7 items-center">
             <Three />
           </div>
-          <div className="text-black text-lg">
+          <div className="text-white text-lg">
             Get a product requirement document (PRD) and a development plan;
           </div>
         </div>
@@ -46,7 +46,7 @@ const CustomApp = () => {
           <div className="flex flex-row gap-7 items-center">
             <Four />
           </div>
-          <div className="text-black text-lg">
+          <div className="text-white text-lg">
             Approve the plan and the PRD, sign the agreement and make a payment;
           </div>
         </div>
@@ -54,7 +54,7 @@ const CustomApp = () => {
           <div className="flex flex-row gap-7 items-center">
             <Five />
           </div>
-          <div className="text-black text-lg">
+          <div className="text-white text-lg">
             Control our work on the product throughout all the stages;
           </div>
         </div>
@@ -62,7 +62,7 @@ const CustomApp = () => {
           <div className="flex flex-row gap-7 items-center">
             <Six />
           </div>
-          <div className="text-black text-lg">
+          <div className="text-white text-lg">
             Get a functional product with our consultations, support and
             knowledge transfer to your team.
           </div>

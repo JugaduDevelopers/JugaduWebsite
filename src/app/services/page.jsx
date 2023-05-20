@@ -21,7 +21,6 @@ const page = () => {
       <BlockchainDev />
       <LaunchProducts />
       <TechnologyStack />
-      <ProductDesign />
       <Establishment />
       <Services />
       <WebDev />

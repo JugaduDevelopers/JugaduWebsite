@@ -8,8 +8,8 @@ import RG from "../../public/icons/reactGray.svg";
 
 const Languages = () => {
   return (
-    <div className="bg-whiteSmoke py-20 px-10 md:px-20 flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl md:text-9xl text-black">
+    <div className="bg-whiteSmoke py-10 container mx-auto flex flex-col justify-center items-start gap-10">
+      <h1 className="text-5xl text-black">
         Technologies, languages and frameworks we use in custom software
         development
       </h1>
