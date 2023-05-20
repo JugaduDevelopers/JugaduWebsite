@@ -13,7 +13,7 @@ function SmNav() {
         onClick={() => {
           setIsOpen(!isOpen);
         }}
-        className={`top-8 right-5 duration-200 fixed md:hidden shadow-gray-800 drop-shadow-2xl z-20`}
+        className={`top-6 right-5 duration-200 fixed md:hidden shadow-gray-800 drop-shadow-2xl z-20`}
       >
         {isOpen ? <CloseMenuSvg width="32px" /> : <MenuSvg width="32px" />}
       </button>
