@@ -9,7 +9,7 @@ import Platforms from "../../public/icons/platforms.svg";
 
 const LaunchProducts = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-[#121519]">
     <div className=" container mx-auto flex flex-col px-5 py-10 justify-center items-start gap-10">
       <h2 className="text-white text-4xl font-bold mb-7">
         Launch the products in these industries with our help

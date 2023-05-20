@@ -2,7 +2,7 @@ import React from "react";
 
 const Establishment = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-[#121519]">
     <div className=" container mx-auto py-10 px-5 flex flex-col justify-center items-start gap-10">
       <h1 className="text-4xl font-bold text-white">
         Why Did We Establish a Separate <br /> Design Studio?
