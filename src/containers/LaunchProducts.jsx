@@ -9,11 +9,12 @@ import Platforms from "../../public/icons/platforms.svg";
 
 const LaunchProducts = () => {
   return (
-    <div className="bg-black container mx-auto flex flex-col py-10 justify-center items-start gap-10">
-      <h2 className="text-white mb-7">
+    <section className="bg-black">
+    <div className=" container mx-auto flex flex-col px-5 py-10 justify-center items-start gap-10">
+      <h2 className="text-white text-4xl font-bold mb-7">
         Launch the products in these industries with our help
       </h2>
-      <div className="grid grid-cols-1 grid-rows-6 lg:grid-cols-2 lg:grid-rows-3 md:gap-16">
+      <div className="grid grid-cols-1 grid-rows-6 gap-5 lg:grid-cols-2 lg:grid-rows-3 md:gap-16">
         <div className="flex flex-col md:flex-row md:items-center gap-5">
           <CryptoBanks />
           <h4 className="text-white text-2xl">Crypto banks</h4>
@@ -43,7 +44,7 @@ const LaunchProducts = () => {
           </h4>
         </div>
       </div>
-    </div>
+    </div></section>
   );
 };
 

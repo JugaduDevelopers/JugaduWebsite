@@ -8,11 +8,12 @@ import Six from "../../public/icons/six.svg";
 
 const Processes = () => {
   return (
-    <div className="bg-black container mx-auto py-20 flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl text-white">
+    <section className="bg-[#121519]">
+    <div className=" container mx-auto px-5 py-20 flex flex-col justify-center items-start gap-10">
+      <h1 className="text-4xl font-bold text-white">
         What does the creation process look like?
       </h1>
-      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="h-2 bg-yellow w-36 lg:w-1/3 rounded" />
       <div className="text-lg text-white mb-10">
         We offer comprehensive services and professional support at every stage
         of the process
@@ -89,7 +90,7 @@ const Processes = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></section>
   );
 };
 

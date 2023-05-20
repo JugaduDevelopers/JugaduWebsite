@@ -5,13 +5,14 @@ import Crypto from "../../public/icons/crypto.svg";
 
 const BlockchainDev = () => {
   return (
-    <div className="bg-white container mx-auto flex flex-col justify-center gap-20 py-10 md:gap-32">
+    <section className="bg-white">
+    <div className=" container mx-auto p-5 flex flex-col justify-center gap-20 py-10 md:gap-32">
       <div className="flex flex-col gap-10">
-        <h1 className="text-5xl text-black ">
-          Our custom blockchain <br /> development services
+        <h1 className="text-4xl font-bold text-black ">
+          Our custom blockchain  development services
         </h1>
-        <div className="h-2 bg-yellow w-36 rounded" />
-        <div className=" text-black text-lg">
+        <div className="h-2 bg-yellow w-36 lg:w-1/3 rounded" />
+        <div className=" text-black text-lg lg:text-xl font-bold">
           We offer white-label custom-developed and <br /> pre-designed
           solutions for
         </div>
@@ -31,6 +32,7 @@ const BlockchainDev = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

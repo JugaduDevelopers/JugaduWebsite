@@ -8,12 +8,13 @@ import RG from "../../public/icons/reactGray.svg";
 
 const Languages = () => {
   return (
-    <div className="bg-whiteSmoke py-10 container mx-auto flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl text-black">
+    <section className="bg-whiteSmoke">
+    <div className="px-5 py-10 lg:py-20 container mx-auto flex flex-col justify-center items-start gap-10">
+      <h1 className="text-4xl font-bold text-black mb-10">
         Technologies, languages and frameworks we use in custom software
         development
       </h1>
-      <div className="flex flex-col gap-36 md:flex-row flex-wrap mx-28">
+      <div className="flex flex-col gap-10 md:gap-36 md:flex-row flex-wrap ">
         <div className="flex flex-col lg:flex-1 gap-5">
           <SQL />
           <h4 className="text-black text-2xl">SQLite</h4>
@@ -39,7 +40,7 @@ const Languages = () => {
           <h4 className="text-black text-2xl">React</h4>
         </div>
       </div>
-    </div>
+    </div></section>
   );
 };
 

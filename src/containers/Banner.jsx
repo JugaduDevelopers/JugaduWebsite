@@ -1,20 +1,26 @@
-import React from "react";
+import React from 'react'
 
 const Banner = () => {
   return (
-    <section className="bg-black h-screen px-10 lg:px-20 justify-center flex flex-col items-start gap-14">
-      <h1 className="text-whiteSmoke text-6xl md:text-9xl">
-        Custom Software <br /> Development Company
-      </h1>
-      <h3 className="text-whiteSmoke text-lg md:text-6xl">
-        Idealogic materializes ideas into software. <br /> Find out what
-        solutions we can create for your business
-      </h3>
-      <button className="bg-turquoise py-3 px-14 rounded-md">
-        Get in touch
-      </button>
-    </section>
-  );
-};
+    <section className="bg-black  ">
+    <div className="container mx-auto px-5 py-14 sm:py-36 lg:py-60 flex items-center justify-center ">
+      <div className="text-white ">
+        <h1 className="text-4xl font-bold sm:text-6xl mb-5">
+          Custom software development company
+        </h1>
+        <p className="text-lg sm:text-2xl mb-5">
+          Idealogic materializes ideas into software. Find out what
+          solutions we can create for your business
+        </p>
+        <a href="#contact">
+          <button className="bg-[#fdda4a] py-4 min-w-[250px] sm:min-w-[300px] text-black font-semibold rounded-md">
+            Get in touch
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+  )
+}
 
-export default Banner;
+export default Banner

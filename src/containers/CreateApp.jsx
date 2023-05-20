@@ -4,11 +4,12 @@ import Tab from "../../public/icons/tab.svg";
 
 const CreateApp = () => {
   return (
-    <div className="bg-white py-20 container mx-auto flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl text-black">
+    <section className="bg-white">
+    <div className=" py-20 px-5 container mx-auto flex flex-col justify-center items-start gap-10">
+      <h1 className="text-4xl font-bold text-black">
         Create the apps for your business with us
       </h1>
-      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="h-2 bg-yellow w-36 lg:w-1/3 rounded" />
       <div className="text-lg m text-black">
         We develop mobile applications for various business needs. Idealogic
         team can either start with a fresh idea of yours and develop the app
@@ -48,7 +49,7 @@ const CreateApp = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></section>
   );
 };
 

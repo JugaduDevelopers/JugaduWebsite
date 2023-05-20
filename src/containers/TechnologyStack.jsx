@@ -10,11 +10,12 @@ import Ethereum from "../../public/icons/ethereum.svg";
 
 const TechnologyStack = () => {
   return (
-    <div className="bg-whiteSmoke container mx-auto flex flex-col justify-center gap-20 py-10 md:gap-32">
+    <section className="bg-whiteSmoke">
+    <div className=" container mx-auto flex flex-col px-5 justify-center gap-20 py-10 md:gap-32">
       <div className="flex flex-col gap-10">
-        <h1 className=" text-black text-5xl">Technology stack we use</h1>
-        <div className="h-2 bg-yellow w-36  rounded" />
-        <div className=" text-black text-lg">
+        <h1 className=" text-black text-4xl font-bold">Technology stack we use</h1>
+        <div className="h-2 bg-yellow w-36 lg:w-[20%] rounded" />
+        <div className=" text-black text-lg lg:text-xl font-bold">
           Let your ideas be implemented into reality with our core technologies
         </div>
       </div>
@@ -52,7 +53,7 @@ const TechnologyStack = () => {
           <h4 className="text-black text-2xl">Ethereum</h4>
         </div>
       </div>
-    </div>
+    </div></section>
   );
 };
 

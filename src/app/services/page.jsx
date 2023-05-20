@@ -7,7 +7,6 @@ import Languages from "@/containers/Languages";
 import LaunchProducts from "@/containers/LaunchProducts";
 import Needs from "@/containers/Needs";
 import Processes from "@/containers/Processes";
-import ProductDesign from "@/containers/ProductDesign";
 import Services from "@/containers/Services";
 import Technologies from "@/containers/Technologies";
 import TechnologyStack from "@/containers/TechnologyStack";

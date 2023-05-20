@@ -2,8 +2,9 @@ import React from "react";
 
 const Establishment = () => {
   return (
-    <div className="bg-black container mx-auto py-10 flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl text-white">
+    <section className="bg-black">
+    <div className=" container mx-auto py-10 px-5 flex flex-col justify-center items-start gap-10">
+      <h1 className="text-4xl font-bold text-white">
         Why Did We Establish a Separate <br /> Design Studio?
       </h1>
       <div className="h-2 bg-yellow w-36 rounded" />
@@ -18,7 +19,7 @@ const Establishment = () => {
         The Design Studio operates on the same principles and values of
         transparency, innovation, and results orientation.
       </div>
-    </div>
+    </div></section>
   );
 };
 

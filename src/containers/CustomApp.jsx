@@ -8,11 +8,12 @@ import Six from "../../public/icons/six.svg";
 
 const CustomApp = () => {
   return (
-    <div className="bg-black py-10 container mx-auto  flex flex-col justify-center items-start gap-10">
-      <h1 className="text-5xl text-white">
+    <section className="bg-[#121519]">
+    <div className=" py-10 px-5 container mx-auto  flex flex-col justify-center items-start gap-10">
+      <h1 className="text-4xl font-bold text-white">
         How do we work on the custom app development?
       </h1>
-      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="h-2 bg-yellow w-36 lg:w-1/3 rounded" />
       <div className="text-lg text-white mb-10">
         We offer a simple and clear workflow for app development from the idea
         you have to a fully functional product:
@@ -68,7 +69,7 @@ const CustomApp = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></section>
   );
 };
 

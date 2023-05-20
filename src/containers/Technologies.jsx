@@ -10,12 +10,13 @@ import Koa from "../../public/icons/koa.svg";
 
 const Technologies = () => {
   return (
-    <div className="bg-white py-20 container mx-auto flex flex-col justify-center items-start gap-10">
+    <section className="bg-white">
+    <div className=" py-20 px-5 container mx-auto flex flex-col justify-center items-start gap-10">
       <h1 className="text-5xl text-black">Technologies</h1>
-      <div className="h-2 bg-yellow w-36 rounded" />
+      <div className="h-2 bg-yellow w-36 lg:w-[20%] rounded" />
       <div className="text-xl text-black flex flex-col gap-5 mb-10">
         <p>
-          {" "}
+
           Let your ideas be implemented into reality with our core technologies
         </p>
         <p>
@@ -24,8 +25,8 @@ const Technologies = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row flex-wrap gap-36 ">
-        <div className="flex flex-col items-center gap-5">
+      <div className="grid grid-cols-1  md:flex md:flex-row flex-wrap gap-36 ">
+        <div className="flex flex-col items-center gap-5 ">
           <ReactJS />
           <h4 className="text-black text-2xl">React JS</h4>
         </div>
@@ -58,7 +59,7 @@ const Technologies = () => {
           <h4 className="text-black text-2xl">Koa2</h4>
         </div>
       </div>
-    </div>
+    </div></section>
   );
 };
 

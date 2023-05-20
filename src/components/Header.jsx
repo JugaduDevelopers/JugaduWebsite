@@ -2,6 +2,7 @@
 import React, { memo, useEffect, useState } from "react";
 import LgNav from "./LgNav";
 import TestNav from "./SmNav";
+import Link from "next/link";
 
 function Header() {
   const [scroll, setScroll] = useState(false);
@@ -19,9 +20,9 @@ function Header() {
     >
       <div className={"container mx-auto"}>
         <div className="flex justify-between items-center py-6">
-          <a href="#" className="text-2xl">
+          <Link href="/" className="text-2xl">
             Jugadu Developers
-          </a>
+          </Link>
           <LgNav />
           <TestNav />
           <a href="#contact" className=" max-md:hidden">
