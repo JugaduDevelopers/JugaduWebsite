@@ -5,7 +5,7 @@ import Comprehensive from "../../../public/icons/comprehensive.svg";
 const OurApproach = () => {
   return (
     <section className="bg-[#121519] text-[#F6F6F6]">
-      <div className="container mx-auto flex flex-col items-start md:py-28 py-16 md:px-0 px-5">
+      <div className="container mx-auto flex flex-col items-start md:py-28 py-16  px-5">
         <div className="md:w-3/5">
           <h1 className="text-5xl pb-7"> Our approach</h1>
           <p className="text-2xl font-semibold pb-4">
@@ -18,7 +18,7 @@ const OurApproach = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto md:pt-28 pt-16 flex md:px-0 px-5 flex-wrap">
+      <div className="container mx-auto md:pt-28 pt-16 flex  px-5 flex-wrap">
         <div className="md:w-3/5">
           <h1 className="text-5xl pb-7">Why Idealogic?</h1>
           <p className="text-lg">
@@ -82,7 +82,7 @@ const OurApproach = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto flex flex-col items-start md:py-28 py-16 md:px-0 px-5">
+      <div className="container mx-auto flex flex-col items-start md:py-28 py-16  px-5">
         <div className="md:w-3/5">
           <h1 className="text-5xl pb-7">Our development model</h1>
           <p className="text-lg">
