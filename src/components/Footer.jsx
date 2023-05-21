@@ -2,6 +2,7 @@ import React from "react";
 import Form from "./Form";
 import Link from "next/link";
 import Mail from "../../public/icons/mail.svg";
+import Phone from "../../public/icons/phone.svg";
 const Footer = () => {
   return (
     <>
@@ -28,70 +29,48 @@ const Footer = () => {
         <div className="container mx-auto">
           <div className="grid-cols-auto-fit grid gap-2 justify-items-start sm:justify-items-center py-10 footer-common">
             <div className="max-md:hidden max-w-xs">
-              <h3>Logo</h3>
+              <h3>{`</> KreoDeck`}</h3>
               <p>
-                Custom software development company with focus on app
-                development and blockchain.
+              {`Group of developers who have expertise in IT.`}
               </p>
             </div>
-            <ul>
-              <h6 className="font-semibold text-[#121519]">Our Company</h6>
+            <ul >
+              <h6 className="font-semibold text-[#121519] ">Services</h6>
               <li>
-                <Link href={"#"}> About us</Link>
+                <Link href={"/services"}>Blockchain</Link>
               </li>
               <li>
-                <Link href={"#"}> Careers</Link>
+                <Link href={"/services"}>Web Development</Link>
               </li>
               <li>
-                <Link href={"#"}> Our approach</Link>
-              </li>
-              <li>
-                <Link href={"#"}> Our works</Link>
-              </li>
-            </ul>
-            <ul>
-              <h6 className="font-semibold text-[#121519]">Services</h6>
-              <li>
-                <Link href={"#"}>Blockchain</Link>
-              </li>
-              <li>
-                <Link href={"#"}> Design</Link>
-              </li>
-              <li>
-                <Link href={"#"}>Web Development</Link>
-              </li>
-              <li>
-                <Link href={"#"}>Mobile Development</Link>
-              </li>
-              <li>
-                <Link href={"#"}>Quality assurance</Link>
+                <Link href={"/services"}>Mobile Development</Link>
               </li>
             </ul>
             <ul>
               <h6 className="font-semibold text-[#121519]">Talk to us</h6>
-              <li>
-                <a href="mailto:contact@jugadudevelopers.com">
+              <li className="flex items-center gap-2">
+                <a href="mailto:contact@kreodeck.com" >
                   <Mail />
                 </a>
+                <span>contact@kreodeck.com</span>
               </li>
-              <li>+91800 234 567</li>
+              <li className="flex items-center gap-2">
+                <a href="mailto:contact@kreodeck.com" >
+                  <Phone />
+                </a>
+                <span>+91800 234 567</span>
+              </li>
               {/* <li>+91123456789</li> */}
               {/* <li>+91123456789</li> */}
             </ul>
-            {/* <ul>
-              <h6 className="font-semibold text-[#121519]">Legal</h6>
-              <li>
-                <Link href={"#"}>Privacy policy</Link>
-              </li>
-            </ul> */}
           </div>
         </div>
         <div className="w-3/4 bg-gray-500 bg-opacity-60 rounded-lg h-[1px] mx-auto container" />
         <div className="flex md:hidden items-center justify-center mx-auto container py-5">
-          <h3>Logo</h3>
+          <h3>{`</> KreoDeck`}</h3>
         </div>
         <div className="flex items-center justify-center mx-auto container py-5">
-          <p>@ 2023 Jugadu Developers. All rights Reserved.</p>
+          <p>@ 2023 KreoDeck. All rights Reserved.</p>
         </div>
       </footer>
     </>

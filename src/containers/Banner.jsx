@@ -6,11 +6,10 @@ const Banner = () => {
     <div className="container mx-auto px-5 py-14 sm:py-36 lg:py-60 flex items-center justify-center ">
       <div className="text-white ">
         <h1 className="text-4xl font-bold sm:text-6xl mb-5">
-          Custom software development company
+          Custom software development <span className='line-through'>company</span>
         </h1>
-        <p className="text-lg sm:text-2xl mb-5">
-          Idealogic materializes ideas into software. Find out what
-          solutions we can create for your business
+        <p className="text-lg sm:text-2xl mb-5 ">
+        We are a leading developers group who has to specialize in web & app development, blockchain development, and AI/ML services
         </p>
         <a href="#contact">
           <button className="bg-[#fdda4a] py-4 min-w-[250px] sm:min-w-[300px] text-black font-semibold rounded-md">

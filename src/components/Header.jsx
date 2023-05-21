@@ -21,7 +21,7 @@ function Header() {
       <div className={"container mx-auto"}>
         <div className="flex justify-between items-center py-6">
           <Link href="/" className="text-2xl lin">
-            Jugadu Developers
+            {`</> KreoDeck`}
           </Link>
           <LgNav />
           <TestNav />

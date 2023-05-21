@@ -2,7 +2,7 @@ import React from "react";
 
 const WebDev = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white" id="webDev">
     <div className=" container mx-auto  flex flex-col px-5 py-14 sm:py-20  justify-center items-start gap-10">
       <h1 className="text-4xl font-bold text-black">Web Development</h1>
       <div className="h-2 bg-yellow w-36 lg:w-[20%] rounded" />

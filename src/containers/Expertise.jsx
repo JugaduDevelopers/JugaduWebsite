@@ -17,7 +17,8 @@ const Expertise = () => {
               className="bg-white p-5 rounded-lg drop-shadow-lg hover:drop-shadow-2xl hover:transition-all hover:duration-1000 hover:ease-out "
               key={x.heading}
             >
-              <Laptop className=" bg-[#ffda44]  rounded-full overflow-visible" />
+              <div className=" bg-[#ffda44]  rounded-full overflow-visible inline-block">
+               {x.content} </div>
               <h2 className="text-3xl mt-5">{x.heading}</h2>
               <p className="text-lg mt-3">{x.desc}</p>
             </div>

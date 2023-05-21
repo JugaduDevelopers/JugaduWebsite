@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import SeedBox from "../../../public/SeedBox.webp";
+import Project3 from "../../../public/project3.jpg";
+import Project1 from "../../../public/project1.jpg";
+import Project2 from "../../../public/project2.png";
+import Link from "next/link";
 
 const OurWork = () => {
   return (
@@ -18,42 +21,45 @@ const OurWork = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto md:pt-28 pt-16 flex flex-wrap  px-5">
-        <div className="flex flex-col items-start flex-1 pr-16">
-          <h1 className="text-5xl mb-7"> Glue</h1>
-          <p className="text-lg mb-7">
-            Learn about the exceptional user experience (UX) and user interface
-            (UI) that we provide to the clients of Glue through the custom
-            crypto application developed by Idealogic.
-          </p>
-          <button className="mb-40 bg-black py-3 px-20 rounded-md hover:bg-[#ffda44] border-2 border-[#ffda44] text-[#ffda44] hover:text-black font-medium">
-            View
-          </button>
-        </div>
-        <div>
-          <Image src={SeedBox} width={700} alt="img" />
-        </div>
-      </div>
-      <div className="container mx-auto flex gap-40  px-5">
-        <button className="font-medium">
-          <span>Prev Case</span>
-        </button>
-        <button className="font-medium">
-          <span>Next Case</span>
-        </button>
-      </div>
-      <div className="container mx-auto md:pt-28 pt-16 flex justify-between flex-wrap text-2xl  px-5">
-        <div>
-          <Image src={SeedBox} width={600} alt="img" />
+
+      <div className="container mx-auto my-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:justify-center  text-2xl  px-5 gap-14 ">
+      <div className="flex flex-col items-center gap-3 justify-self-center max-w-sm ">
           <h3 className=" md:py-5 py-3">
-            <span className="text-[#ffda44]">Glue</span>-Crypto App
+            <span className="text-[#ffda44] ">ServoFeat</span>
           </h3>
+          <p className="text-lg text-center mb-3 line-clamp-3">
+          ServoFeat is Smart Restaurant System. ServoFeat covers all the nooks of your business and assists you to manage remotely so that you can focus on enlarging your firm
+          </p>
+          <div className="w-full max-w-[300px] aspect-video "><a href="https://www.servofeat.com/" className="mb-5"><Image src={Project3} className="h-full w-full" alt="img" /></a></div>
+          <Link href='https://www.servofeat.com/'><button className=" bg-black mt-5 py-3 px-20 rounded-md hover:bg-[#ffda44] border-2 border-[#ffda44] text-[#ffda44] hover:text-black font-medium" >
+            View
+          </button></Link>
         </div>
-        <div>
-          <Image src={SeedBox} width={600} alt="img" />
-          <h3 className="md:py-5 py-3">
-            <span className="text-[#ffda44]">Glue</span>-Crypto App
+
+        <div className="flex flex-col items-center gap-3 justify-self-center max-w-sm">
+          <h3 className=" md:py-5 py-3">
+            <span className="text-[#ffda44] ">Ryzer</span>
           </h3>
+          <p className="text-lg text-center mb-3 line-clamp-3">
+          mission to re-shape the alternative investments market & allow everyone to join in its massive growth, we are Digitising alternate investment assests that can be sold, hold & buy anytime, anywhere.
+          </p>
+
+          <div className="w-full max-w-[300px] aspect-video"><a href="https://ryzer.app/" className="mb-5"><Image src={Project2}  alt="img" className="h-full w-full" /></a></div>
+          <Link href="https://ryzer.app/"><button className=" bg-black py-3 px-20 mt-5 rounded-md hover:bg-[#ffda44] border-2 border-[#ffda44] text-[#ffda44] hover:text-black font-medium">
+            View
+          </button></Link>
+        </div>
+        <div className="flex flex-col items-center gap-3 justify-self-center max-w-sm mb-5">
+          <h3 className=" md:py-5 py-3 ">
+            <span className="text-[#ffda44] ">Mintelium</span>
+          </h3>
+          <p className="text-lg text-center mb-3 line-clamp-3">
+          How we builted Zero Knowledge Proof (Zk Proof) ID solution that is a decentralised, self-sovereign and private identity solution for the next iteration of the internet.
+          </p>
+          <div className="w-full max-w-[300px] aspect-video"><a href="https://mintelium.com/" className="mb-5"><Image src={Project1} width={600} alt="img" /></a></div>
+          <Link href="https://mintelium.com/"><button className=" bg-black py-3 mt-5 px-20 rounded-md hover:bg-[#ffda44] border-2 border-[#ffda44] text-[#ffda44] hover:text-black font-medium">
+            View
+          </button></Link>
         </div>
       </div>
     </section>

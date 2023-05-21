@@ -107,12 +107,6 @@ function Form() {
         >
           Contact Us
         </button>
-        <Link
-          href="#"
-          className="ml-4  font-semibold text-sm border-dashed border-b hover:border-solid border-black"
-        >
-          Whats Next?
-        </Link>
       </div>
     </form>
   );

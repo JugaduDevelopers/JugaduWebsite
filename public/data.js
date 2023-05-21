@@ -1,3 +1,10 @@
+import Laptop from "../public/icons/laptop.svg";
+import ML from "../public/icons/ml.svg";
+import Design from "../public/icons/prototype.svg";
+import WebApp from "../public/icons/coding.svg";
+import Team from "../public/icons/united.svg";
+import Block from "../public/icons/block.svg";
+import Card from "../public/icons/card.svg";
 // import second from '../src/app/OurWorks'
 
 export const navLinks = [
@@ -9,7 +16,7 @@ export const navLinks = [
   },
   {
     id: 2,
-    item: "Our Company",
+    item: "About us",
     href: "/our-approach",
   },
   {
@@ -22,28 +29,39 @@ export const navLinks = [
 
 export const expertiseList = [
   {
-    heading: "DeFi platforms",
-    desc: "Our team of developers creates decentralized financial platforms. We don’t limit ourselves to crypto solutions only, we also apply smart contracts and open software solutions in other industries.",
-  },
-  {
-    heading: "Platform Migration",
-    desc: "Give a fresh start to your old solutions. We update all the older functionality and software you’ve been developing by replatforming it to a new stack and with new architecture. Our team will fix existing issues, making your ecosystem a smooth, reliable, and effective platform.",
-  },
-  {
-    heading: "Dedicated Team",
-    desc: "We offer our experienced teams that work with a modern stack of technologies. Our colleagues lead the development project from the first day to the end of the development cycle. Idealogic’s dedicated teams also support and maintain existing solutions while developing additional functionality if needed.",
-  },
-  {
-    heading: "NFTs",
-    desc: "Idealogic designs NFT marketplaces that allow minting, management, and the sale of NFT units. Incorporate custom NFT solutions into your business ecosystem, designing core functionality with our teams.",
+    heading: "Custom web & app development",
+    desc: "Let us create any application you need to connect the clients with the services you provide. These multi-platform apps connect your clients with business ecosystems.",
+    content: <WebApp/>
   },
   {
     heading: "Product Design",
     desc: "Idealogic develops both front- and back-end. We design the UX and UI of the solutions we create for our clients trying to put maximum usability and understanding of business needs into the product. When our developers and designers work on the same solution, you get a complex result.",
+    content: <Design/>
+
   },
   {
-    heading: "Custom application development",
-    desc: "Let us create any application you need to connect the clients with the services you provide. These multi-platform apps connect your clients with business ecosystems.",
+    heading: "Blockchain Development",
+    desc: "Our team of developers creates decentralized financial platforms. We don’t limit ourselves to crypto solutions only, we also apply smart contracts and open software solutions in other industries.",
+    content: <Block/>
+
+  },
+  {
+    heading: "NFTs",
+    desc: "Idealogic designs NFT marketplaces that allow minting, management, and the sale of NFT units. Incorporate custom NFT solutions into your business ecosystem, designing core functionality with our teams.",
+    content: <Card/>
+
+  },
+  {
+    heading: "Dedicated Team",
+    desc: "We offer our experienced teams that work with a modern stack of technologies. Our colleagues lead the development project from the first day to the end of the development cycle. Idealogic’s dedicated teams also support and maintain existing solutions while developing additional functionality if needed.",
+    content: <Team/>
+
+  },
+  {
+    heading: "AI/ML Solutions",
+    desc: "Unlock the future of artificial intelligence and machine learning with our advanced solutions. Our team of data scientists and AI engineers harness data-driven insights to create intelligent algorithms, predictive models, and automation tools. From natural language processing to predictive analytics, we empower your business with smart, data-powered decision-making.",
+    content: <ML/>
+
   },
 ];
 

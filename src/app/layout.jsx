@@ -5,8 +5,8 @@ import Header from "@/components/Header";
 
 export const metadata = {
   title: {
-    default: "Jugadu Developers",
-    template: "%s | Jugadu Developers",
+    default: "kreoDeck",
+    template: "%s | kreoDeck",
   },
   description: "",
 };
@@ -16,7 +16,7 @@ const RootLayout = ({ children }) => {
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../../static/k.ico"/>
       </head>
       <body>
         <header className="sticky top-0 z-50 ">

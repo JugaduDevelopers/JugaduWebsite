@@ -37,7 +37,7 @@ const Languages = () => {
         </div>
         <div className="flex flex-col lg:flex-1 gap-5">
           <RG />
-          <h4 className="text-black text-2xl">React</h4>
+          <h4 className="text-black text-2xl">React Native</h4>
         </div>
       </div>
     </div></section>
