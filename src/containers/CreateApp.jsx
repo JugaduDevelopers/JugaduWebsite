@@ -11,7 +11,7 @@ const CreateApp = () => {
       </h1>
       <div className="h-2 bg-yellow w-36 lg:w-1/3 rounded" />
       <div className="text-lg m text-black">
-        We develop mobile applications for various business needs. Idealogic
+        We develop mobile applications for various business needs. kreodeck
         team can either start with a fresh idea of yours and develop the app
         from scratch, or build the application that will reach more clients with
         the existing services. We develop iOS and Android solutions that can be
@@ -23,7 +23,7 @@ const CreateApp = () => {
           <Mobile />
           <h4 className="text-black text-2xl">iOS applications development</h4>
           <div className="text-black text-lg">
-            Idealogic creates iOS applications with the architecture that will
+            kreodeck creates iOS applications with the architecture that will
             meet your product requirements and features list.
           </div>
         </div>

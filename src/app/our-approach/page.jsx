@@ -20,7 +20,7 @@ const OurApproach = () => {
       </div>
       <div className="container mx-auto md:pt-28 pt-16 flex  px-5 flex-wrap">
         <div className="md:w-3/5">
-          <h1 className="text-5xl pb-7">Why Idealogic?</h1>
+          <h1 className="text-5xl pb-7">Why kreodeck?</h1>
           <p className="text-lg">
             We design, build, launch, and support digital products. Our team
             crafts solutions that power your business. We are also flexible

@@ -8,7 +8,7 @@ const Idealogies = () => {
     <section className="  mt-10 ">
     <div className="container  flex flex-col  mx-auto  p-5 ">
       <h1 className="text-3xl font-bold lg:text-4xl text-left  ">
-        Idealogic focuses on work with startups
+        kreodeck focuses on work with startups
       </h1>
       <div className="flex flex-col md:flex md:flex-row gap-5 mt-5 lg:mt-14">
         <div className="bg-[#ffda44]  flex-1   p-5 md:p-10 rounded-lg flex flex-col items-start justify-center ">

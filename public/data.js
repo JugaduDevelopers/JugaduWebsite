@@ -35,7 +35,7 @@ export const expertiseList = [
   },
   {
     heading: "Product Design",
-    desc: "Idealogic develops both front- and back-end. We design the UX and UI of the solutions we create for our clients trying to put maximum usability and understanding of business needs into the product. When our developers and designers work on the same solution, you get a complex result.",
+    desc: "kreodeck develops both front- and back-end. We design the UX and UI of the solutions we create for our clients trying to put maximum usability and understanding of business needs into the product. When our developers and designers work on the same solution, you get a complex result.",
     content: <Design/>
 
   },
@@ -47,13 +47,13 @@ export const expertiseList = [
   },
   {
     heading: "NFTs",
-    desc: "Idealogic designs NFT marketplaces that allow minting, management, and the sale of NFT units. Incorporate custom NFT solutions into your business ecosystem, designing core functionality with our teams.",
+    desc: "kreodeck designs NFT marketplaces that allow minting, management, and the sale of NFT units. Incorporate custom NFT solutions into your business ecosystem, designing core functionality with our teams.",
     content: <Card/>
 
   },
   {
     heading: "Dedicated Team",
-    desc: "We offer our experienced teams that work with a modern stack of technologies. Our colleagues lead the development project from the first day to the end of the development cycle. Idealogic’s dedicated teams also support and maintain existing solutions while developing additional functionality if needed.",
+    desc: "We offer our experienced teams that work with a modern stack of technologies. Our colleagues lead the development project from the first day to the end of the development cycle. kreodeck’s dedicated teams also support and maintain existing solutions while developing additional functionality if needed.",
     content: <Team/>
 
   },
@@ -94,6 +94,6 @@ export const approaches = [
   {
     id: 6,
     heading: "Post-delivery Support",
-    desc: "Idealogic offers you long-term relationships. We can work as a dedicated team maintaining, developing, and updating your existing software infrastructure.",
+    desc: "kreodeck offers you long-term relationships. We can work as a dedicated team maintaining, developing, and updating your existing software infrastructure.",
   },
 ];

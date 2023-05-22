@@ -48,11 +48,11 @@ const Footer = () => {
             </ul>
             <ul>
               <h6 className="font-semibold text-[#121519]">Talk to us</h6>
-              <li className="flex items-center gap-2">
-                <a href="mailto:contact@kreodeck.com" >
+              <li >
+                <a href="mailto:contact@kreodeck.com" className="flex items-center gap-2" >
                   <Mail />
-                </a>
                 <span>contact@kreodeck.com</span>
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <a href="mailto:contact@kreodeck.com" >

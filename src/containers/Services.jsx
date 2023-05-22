@@ -9,7 +9,7 @@ const Services = () => {
     <section className="bg-whiteSmoke">
     <div className=" container mx-auto py-10 px-5 flex flex-col justify-center items-start gap-10">
       <h1 className="text-4xl font-bold text-black">
-        Services Provided by Idealogic Design
+        Services Provided by kreodeck Design
       </h1>
       <div className="h-2 bg-yellow w-36 lg:w-1/3 rounded" />
       <div className="text-lg lg:text-xl font-bold text-black">

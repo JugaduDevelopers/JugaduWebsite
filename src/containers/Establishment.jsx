@@ -9,10 +9,10 @@ const Establishment = () => {
       </h1>
       <div className="h-2 bg-yellow w-36 rounded" />
       <div className="text-lg text-white">
-        At Idealogic, we focus on custom development through our separate
-        development studio, Idealogic.dev. However, we also understand that some
+        At kreodeck, we focus on custom development through our separate
+        development studio, kreodeck.dev. However, we also understand that some
         clients may have in-house development expertise and prefer to work with
-        a dedicated design team. Thus, we established Idealogic Design to
+        a dedicated design team. Thus, we established kreodeck Design to
         provide design services to clients seeking assistance solely with design
         and UX/UI development.
         <br /> <br />

@@ -15,7 +15,7 @@ const Needs = () => {
       </h1>
       <div className="h-2 bg-yellow w-36 lg:w-1/3 rounded" />
       <div className="text-lg text-white mb-10">
-        Idealogic teams have been working on app development in different niches
+        kreodeck teams have been working on app development in different niches
         for more than 5 years. Our company offers a client-oriented approach for
         any project we work on. We analyze the niche our clients want to launch
         their products, constitute the development plan and features list for
@@ -34,7 +34,7 @@ const Needs = () => {
           <Cpay />
           <h4 className="text-white text-2xl">Crypto-Payment</h4>
           <div className="text-white text-lg">
-            Idealogic works on iOS/Android apps and mobile e-wallets for crypto
+            kreodeck works on iOS/Android apps and mobile e-wallets for crypto
             management and payments.
           </div>
         </div>
@@ -43,7 +43,7 @@ const Needs = () => {
           <h4 className="text-white text-2xl">Real Estate</h4>
           <div className="text-white text-lg">
             Personalized application for the real estate search and management
-            in the local area. Idealogic can develop various business apps
+            in the local area. kreodeck can develop various business apps
             around the same functionality.
           </div>
         </div>
@@ -68,7 +68,7 @@ const Needs = () => {
           <Taxi />
           <h4 className="text-white text-2xl">Taxi</h4>
           <div className="text-white text-lg">
-            Idealogic created functionality for applications like Uber, building
+            kreodeck created functionality for applications like Uber, building
             a smooth ecosystem with real-time data exchange with your main
             platform.
           </div>

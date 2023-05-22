@@ -12,10 +12,10 @@ const OurWork = () => {
         <div className="md:w-3/5">
           <h1 className="text-5xl pb-3">Our works</h1>
           <p className="text-lg">
-            Idealogic was founded to help startups, entrepreneurs, and
+            kreodeck was founded to help startups, entrepreneurs, and
             businesses around the world make great products by taking advantage
             of our technical expertise in product design and software
-            development. By choosing Idealogic as your technology partner, you
+            development. By choosing kreodeck as your technology partner, you
             can take on more business and challenges while getting unlimited
             support from our team
           </p>
